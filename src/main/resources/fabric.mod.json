@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "anarchyclient",
+  "version": "${version}",
+  "name": "AnarchyClient",
+  "description": "Full Anarchy Client 1.16.5 - Fly, Dupe, PvP",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.anarchyclient.AnarchyClient"]
+  },
+  "mixins": ["anarchyclient.mixins.json"]
+}
